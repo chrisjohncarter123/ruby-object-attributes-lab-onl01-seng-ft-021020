@@ -8,4 +8,12 @@ class Person
     @name
   end
   
+  def job= (new_breed)
+    @breed = new_breed
+  end
+  
+  def breed 
+    @breed
+  end
+  
 end
